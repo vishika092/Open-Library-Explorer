@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start app.js --name library-app",
+  "stop": "pm2 stop library-app",
+  "restart": "pm2 restart library-app"
   },
   "type": "module",
   "keywords": [],
