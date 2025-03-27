@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start app.js --name library-app",
+    "dev" : "node app.js",
+  "start": "pm2 start app.js --name library-app",
   "stop": "pm2 stop library-app",
   "restart": "pm2 restart library-app"
   },
