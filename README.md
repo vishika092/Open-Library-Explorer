@@ -41,13 +41,7 @@ npm run dev
 ---
 
 ## Data Modeling
-The **Book** model is designed as a document in MongoDB with fields such as:
-- `title`
-- `author`
-- `genre`
-- `description`
-- `publishedYear`
-- `coverImageUrl`
+The **Book** model is designed as a document in MongoDB with fields such as: `title` ,`author`, `genre` ,`description` , `publishedYear`, `coverImageUrl`
 
 ### Indexes
 #### Single Field Indexes
